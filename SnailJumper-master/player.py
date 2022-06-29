@@ -3,7 +3,8 @@ import random
 import pygame
 from variables import global_variables
 from nn import NeuralNetwork
-
+import math
+import numpy as np
 
 class Player(pygame.sprite.Sprite):
     def __init__(self, game_mode):
